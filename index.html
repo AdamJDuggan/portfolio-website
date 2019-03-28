@@ -12,25 +12,26 @@
 <body>
 
 <!-- NAVBAR -->
-<nav id="navbar" class="navbar is-link is-fixed-top">
+<nav id="navbar" class="navbar is-fixed-top">
 <div class="navbar-brand">  
-<div class="navbar-burger burger has-background-link" data-target="navbarExampleTransparentExample">
+<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
 <span></span><span></span><span></span>
 </div>
 </div>
 
-<div id="navbarExampleTransparentExample" class="navbar-menu has-background-link">
+<div id="navbarExampleTransparentExample" class="navbar-menu">
 <div class="navbar-end">
 <a class="navbar-item has-text-white has-text-weight-bold" href="#aboutSec"><span class="icon"><i class="fas fa-info"></i></span><span>About</span></a>
 <a class="navbar-item has-text-white has-text-weight-bold" href="#skillsSection"><span class="icon"><i class="fas fa-bars"></i></span><span>Skills</span></a>
 <a class="navbar-item has-text-white has-text-weight-bold" href="#portfolioSection"><span class="icon"><i class="fas fa-th-list"></i></span><span>Portfolio</span></a>
+<a class="navbar-item has-text-white has-text-weight-bold" href="#experienceSection"><span class="icon"><i class="fas fa-globe-africa"></i></span><span>Experience</span></a>
 <a class="navbar-item has-text-white has-text-weight-bold" href="#contactSection"><span class="icon"><i class="fas fa-envelope"></i></span><span>Contact</span></a>
 </div>
 </div>
 </nav>
 
 <!-- WELCOME BANNER -->
-<section class="hero is-large is-link welcomeBanner">
+<section class="hero is-large welcomeBanner">
 <div class="hero-body">
 <div class="container">
 <h1 class="title is-size-1 is-spaced has-text-white has-text-weight-bold">Adam Duggan</h1>
@@ -46,6 +47,10 @@
 <div class="hero-body">
 <h1 id="aboutTitle" class="title is-size-1 has-text-centered">About me</h1>
 <div class="container">
+
+
+
+
 <div class="columns is-hcentered">
 <div id="aboutImgDiv" class="column is-4">
 <figure class="image is-4by4">
@@ -104,7 +109,7 @@ I am really keen and excited to begin working with other developers.
 </section>
 
 <!-- Skills -->
-<section id="skillsSection" class="hero has-background-grey">
+<!-- <section id="skillsSection" class="hero has-background-grey">
 <div class="hero-body">
 <div class="container">
 <h1 id="servicesTitle" class="title has-text-centered is-size-1 has-text-white">Skills</h1>
@@ -147,7 +152,89 @@ to organisations across Brighton</p>
 </div>
 </div>
 </div>
-</section>
+</section> -->
+<!-- SKILLS -->
+<section id="portfolioSection" class="hero">
+        <div class="hero-body">
+        <div class="container">
+        <h1 id="portfolioTitle" class="title has-text-centered is-size-1">Skills</h1>
+        <div class="tile is-ancestor has-text-weight-bold">
+        <div class="tile is-parent">
+        <article class="tile is-child notification is-success">
+        <div class="content">
+        <p class="title">Front-end web Development</p>
+        
+            
+            <div class="content">
+                    <p class="subtitle">Semantic accessible HTML5</p>
+                    <p class="subtitle">CSS3, flexbox and responsive design</p>
+                    <p class="subtitle">Bootstrap, Bulma and Materialize</p>
+                    <p class="subtitle">Excellent ES5 and ES6 Javascript skills</p>
+                    <p class="subtitle">JQuery</p>
+                    <p class="subtitle">Typescript</p>
+                    <p class="subtitle">Competent in reading API documentation and consuming REST APIs</p>
+                    <p class="subtitle">Angualr 7</p>
+                    <p class="subtitle">Currently completing intensive React/Redux training</p>
+        </div>
+        </div>
+        </article>
+        </div>
+        <div class="tile is-vertical is-8">
+        <div class="tile">
+        <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-warning">
+        <p class="title">Server-Side programming</p>
+        <div class="content">
+        <p class="subtitle ">Node.js and npm</p>
+        <p class="subtitle ">MVC structured Express applications </p>
+        <p class="subtitle ">MongoDB</p>
+        <p class="subtitle">Authentication with Passport.js, bcrypt and JSON web tokens</p>
+        </div>
+        
+        </article>
+        
+        </div>
+        <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+        <p class="title">Developer tools</p>
+        <br>
+        <div class="content">
+        
+        <p class="subtitle">Experienced linux, version control (git) and command line user</p>
+        <p class="subtitle">Chrome Dev Tools and Postman for debugging</p>
+        <p class="subtitle">Testing with git branches, Mocha, Chai and TravisCI </p>
+        <p class="subtitle">Actively involved in the Brighton developer community</p>
+        </div>                
+        </article>
+        </article>
+        </div>
+        </div>
+        <div class="tile is-parent">
+        <article class="tile is-child notification is-danger">
+        <p class="title">Transferable Skills</p>
+        <br>
+        <p class="subtitle">
+        Well developed communcation, interpersonal, crisis management and problem 
+        solving skills from ten years experience in front-line child protection services
+        </p>
+        <p class="subtitle">
+        I have a passion for productivity and have delivered time management training 
+        to organisations across Brighton
+        </p>
+        
+        <div class="content">
+        <!-- Content -->
+        </div>
+        </article>
+        </div>
+        </div>
+        
+        </div>
+        
+        
+        </div>
+        </div>
+        </section>
 
 <!-- PORTFOLIO -->
 <section id="portfolioSection" class="hero is-light">
@@ -235,6 +322,130 @@ Code</a>
 </div>
 </div>
 </section>
+
+<!-- EXPERIENCE -->
+<section id="experienceSection" class="hero">
+<div class="hero-body">
+<div class="container">
+<h1 id="resumeTitle" class="title has-text-centered is-size-1">Experience</h1>
+
+<div class="timeline is-centered">
+<!-- Portsmouth -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fa fa-graduation-cap"></i>
+</div>
+<div class="timeline-content">
+<p><strong>BA History </strong><br>
+University of Portsmouth</p>
+<p class="heading">SEP 2002 - JUN 2005</p>
+</div>
+</div>
+<!-- Records management -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fas fa-briefcase"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Records Management Officer</strong><br>
+Portsmouth Children’s Services</p>
+<p class="heading">JUL 05 - SEP 06</p>
+</div>
+</div>
+<!-- Southampton -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fa fa-graduation-cap"></i>
+</div>
+<div class="timeline-content">
+<p><strong>MA Social Work</strong><br>
+University of Southampton</p>
+<p class="heading">SEP 2006 - JUN 2008</p>
+</div>
+</div>
+<!-- FIP -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fas fa-briefcase"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Family Coach</strong><br>
+Family Intervention Project</p>
+<p class="heading">SEP 08 - DEC 13</p>
+</div>
+</div>
+<!-- FIP Manager -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fas fa-briefcase"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Operational Manager</strong><br>
+Integrated Team for Families</p>
+<p class="heading">JAN 14 - OCT 15</p>
+</div>
+</div>
+<!-- Social Worker -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fas fa-briefcase"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Social Worker </strong><br>
+Children’s Services</p>
+<p class="heading">OCT 15 - AUG 16</p>
+</div>
+</div>
+<!-- Church -->
+<div class="timeline-item is-link">
+<div class="timeline-marker is-light is-icon">
+<i class="fas fa-briefcase"></i>
+</div>
+<div class="timeline-content">
+<p><strong> Operations Manager </strong><br>
+Emmanuel Church Marina</p>
+<p class="heading">SEP 16  - SEP 18</p>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-danger is-large">I am going to become a software developer</span>
+</header>
+<!-- Angualr training -->
+<div class="timeline-item is-danger">   
+<div class="timeline-marker is-danger is-icon">
+<i class="fas fa-laptop-code"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Angular training</strong><br>Framework Training London</p>
+<p class="heading">SEP 18</p>
+</div>
+</div>
+<!-- Angualr bootcamp -->
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger is-icon">
+<i class="fas fa-laptop-code"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Angular, Typescript and RxJS bootcamp</strong><br>Hackages training</p>
+<p class="heading">OCT 18</p>
+</div>
+</div>
+<!-- Thinkful -->
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger is-icon">
+<i class="fas fa-laptop-code"></i>
+</div>
+<div class="timeline-content">
+<p><strong>Full-Stack Developer bootcamp</strong><br>Thinkful</p>
+<p class="heading">NOV 18  - PRESENT</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
 
 
 
